@@ -102,7 +102,7 @@ nav{
 /* user section styles */
 .users{
   width: 1140px;
-  height: 406px;
+  height: 375px;
   background-color: #4d47ff1e;
   margin: 116px 160px 0px 141px;
   border-radius: 20px;
@@ -127,4 +127,35 @@ nav{
 .views-type{
   color: #252432;
   padding-left: 15%;
+}
+/* review section style */
+.review-section{
+  width: 1140px;
+  height: 442px;
+  margin:100px 149px 100px 140px; 
+}
+.review-title{
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+  color: #252432;
+}
+.rating-container{
+  display: flex;
+  gap: 35px;
+
+}
+.rating-portion{
+  background-color: whitesmoke;
+  padding: 20px;
+  height: 243px;
+  width: 366px;
+}
+.user-section{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.user-name{
+  margin-top: 10px;
 }
