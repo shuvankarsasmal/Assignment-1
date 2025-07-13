@@ -150,6 +150,7 @@ nav{
   padding: 20px;
   height: 243px;
   width: 366px;
+  border-radius: 10px;
 }
 .user-section{
   display: flex;
@@ -195,4 +196,57 @@ nav{
 }
 .btn-section{
   margin-top: 0;
+}
+
+/* get in touch section style*/
+.form{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1140px;
+  height: 630px;
+  margin: 0 auto;
+  
+ 
+}
+.form-title{
+  width: 50%
+}
+.form-title-portion{
+  font-size: 80px;
+  font-weight: bold;
+}
+.form-content{
+  width: 30%;
+}
+.form-container{
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+.form-description{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 5px;
+}
+.touch-btn{
+  width: 100%;
+}
+.form-description input,textarea{
+  width: 100%;
+  display: block;
+  border-radius: inherit;
+}
+.form-description input[type="email"],
+.form-description input[type="text"] {
+  height: 35px;
+  padding-left: 10px;
+}
+.form-description textarea {
+  padding-left:10px;
+  padding-top: 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  
 }
